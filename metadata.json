@@ -1,0 +1,6 @@
+{
+  "name": "CRIC-TACTIC v2.4 Pro Analytics",
+  "description": "Elite 25-Over Cricket Analytics & Operations Deck: Scorecards, Playing XI Workbench, Squad Dossiers, Match Reports & Telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #0d1322;
+    color: #dde2f8;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom scrollbar styling for high-density tables and drawers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #151b2b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2f3445;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3c4a42;
+}
+
+/* Custom range sliders styling */
+input[type="range"] {
+  accent-color: #4edea3;
+}
+
+/* Print utility for PDF Dossier exports */
+@media print {
+  aside, header, nav, button {
+    display: none !important;
+  }
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
